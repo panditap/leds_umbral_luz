@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="99A`r`C,KE2LoyD7FK@R" x="0" y="0"><statement name="HANDLER"><block type="device_clear_display" id="NUTYHTVa^,qIhO~A)yo`"/></statement></block><block type="device_forever" id="Qmsu1e2)bW|MTTxyW|u[" x="216" y="8"><statement name="HANDLER"><block type="controls_if" id="XI~f{|Y(Oe!oJqVN89ua"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^#?UOsOAd]=UDz8W9xp#"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="UUJ]^|8;CgF^4f{6]C4M"/></value><value name="B"><shadow type="math_number" id="%}zf=jg1aEq}#:g{dnI@"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_set_brightness" id="M+Cycd.AL2Szj{z?C%@W"><value name="value"><shadow type="math_number_minmax" id="m]Wn[RE!^0DqHH#oo*pb"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">255</field></shadow></value><next><block type="device_show_leds" id="nTLSN@H_i#[NUm_:}LHE"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id="u@=w#y==OUY:{hHhgPV4"/></statement></block></statement></block></xml>
